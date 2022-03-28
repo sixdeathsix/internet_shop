@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img{ 
+  width: 100%;
+  object-fit: contain;
+}
+
+div > a {
+  color: black;
+}
+
+div > a:hover {
+  color: black;
+  opacity: 1;
+}
+
+.row > a {
+  text-decoration: none;
+  color: white;
+}
+
+.row > a:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+  transition: all 0.3s linear;
+}
+
+
+button:hover > a{
+  color: black;
+}
+
+.dropdown-menu {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 50vh;
+}
